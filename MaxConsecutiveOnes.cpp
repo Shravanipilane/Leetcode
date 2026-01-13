@@ -27,3 +27,6 @@ public:
 };
 
 
+int cnt = 0;
+int ans = 0;
+for(`)
