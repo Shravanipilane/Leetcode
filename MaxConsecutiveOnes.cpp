@@ -10,8 +10,8 @@ public:
         int cnt = 0;
         int ans = 0;
 
-    for(int i=0;i<n;i++)
-    {
+     for(int i=0;i<n;i++)
+     {
         if(nums[i] == 1)
         {
             cnt++; 
@@ -21,7 +21,7 @@ public:
         {
             cnt = 0;
         }
-    }  
+     }  
     return ans;
 
     }
