@@ -17,30 +17,3 @@ class solution
        }
 };
 
-vector<int>ans(2 * n);
-int ans_i = 0;
-for(i=-;i<n;i++)
-{
-    ans[ans_i] = nums[i];
-    ans[ans_i + 1] = nums[i + n];
-    ans_i += 2;
-}
-
-vector<int>ans(2 * n)
-int ans_i = 0;
-for(i=0;i<n;i++)
-{
-    ans[ans_i] = nums[i];
-    ans[ans_i + 1] = nums[i + n];
-    ans_i += 2;
-
-}
-
-vector<int> ans (2 * n)
-int ans_ =0;
-for(i=0;i<n;i++)
-{
-    ans[ans_i] = nums[i];
-    ans[ans_i + 1] = nums[i + n]
-    ans_i += 2;
-}
