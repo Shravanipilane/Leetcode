@@ -1,7 +1,7 @@
 class Solution
 {
     public:
-     vector<int>smallerNumbersThanCurrent(vector<int>& nums)
+     vector<int>smallerNumberThanCurrent(vector<int>& nums)
      {
         int sz = nums.Size();
         vector<int>ans;
