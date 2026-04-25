@@ -13,11 +13,13 @@ class Solution
                 if(j != i && nums[j] < nums[i])
                 {
                     cnt++;  
-                }
+                }     
+                
             }
-            ans[i] = cnt;
+            ans.push_back(cnt);
         }
       return ans;
      }
 }
 
+ 
