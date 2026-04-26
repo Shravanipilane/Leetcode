@@ -14,7 +14,7 @@ class Solution
                 {
                     cnt++;  
                 }     
-                
+              
             }
             ans.push_back(cnt);
         }
