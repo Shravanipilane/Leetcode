@@ -6,7 +6,7 @@ if(n2 < n1)
     return false;
 while(i<n1 && j<n2)
 {
-    if(s[i] == t[j])
+    if(s[i] == t[j]) 
     {
         i++;
         j++;
