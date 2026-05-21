@@ -1,0 +1,10 @@
+int L = 0;
+int R = s.size() - 1;
+
+while(L < R)
+{
+    swap(s[L], s[R]);
+    L++;
+    R--;
+}
+
