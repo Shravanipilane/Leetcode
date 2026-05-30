@@ -7,7 +7,7 @@ for(int i=0;i<n;i++)
         nums[index] = nums[i];
         index++;
     }
-}
+} 
 while(index < n)
 {
     nums[index] = 0;
