@@ -23,10 +23,13 @@ class solution
                 int nr = r + dr[k];
                 int nc = c + dc[k];
 
-                if(nr >= 0 && nc >= 0 && nr < rows && nc < cols && grid[nr][nc] == '1')
+                if(nr >= 0 && nc >= 0 && nr < rows && nc < cols && )
                 {
-                    q.push({nr, nc});
-                    grid[nr][nc] = '0'; 
+                    if(grid[nr][nc] == '1')
+                    {
+                        q.push({nr, nc});
+                        grid[nr][nc] = '0'; 
+                    }
                 }
             }
         }
